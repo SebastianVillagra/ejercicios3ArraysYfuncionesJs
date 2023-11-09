@@ -13,10 +13,10 @@ function analizar(cadena) {
     return "La cadena es una mezcla, contiene letras mayusculas y minusculas";
   }
   
-  var cadena = prompt("Ingrese una cadena de texto:");
+  const cadena = prompt("Ingrese una cadena de texto:");
   
   if (cadena !== null) {
-    var resultado = analizar(cadena);
+    const resultado = analizar(cadena);
     document.write(resultado);
   } else {
     document.write("Se ingreso una cadena invalida");
