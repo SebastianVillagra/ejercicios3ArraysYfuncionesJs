@@ -8,10 +8,10 @@ debe mostrar el arreglo generado, luego realizar las siguientes acciones:
 ●Escribe por pantalla el elemento que ocupa la segunda posición.
 ●Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'. */
 
-var ciudades = [];
+let ciudades = [];
 
 while (true) {
-    var ciudad = prompt("Ingrese una ciudad: ");
+    let ciudad = prompt("Ingrese una ciudad: ");
     if (ciudad === null) {
         break;
     }
@@ -32,6 +32,6 @@ document.write("/- Elemento de la 2da posición: " + ciudades[1] + "<br>");
 ciudades[1] = "Barcelona";
 
 document.write("<h1>Arrreglo Ciudades</h1>");
-for (var i = 0; i < ciudades.length; i++) {
+for (let i = 0; i < ciudades.length; i++) {
     document.write("/- Elemento: " + ciudades[i] + "<br>");
 }

@@ -10,10 +10,10 @@ function parOImpar(numero) {
     }
   }
   
-  var numero = parseInt(prompt("Ingrese un numero entero:"));
+  const numero = parseInt(prompt("Ingrese un numero entero:"));
   
   if (!isNaN(numero)) {
-    var resultado = parOImpar(numero);
+    const resultado = parOImpar(numero);
     document.write(resultado);
   } else {
     document.write("Numero invalido.");
